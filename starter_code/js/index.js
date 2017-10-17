@@ -27,7 +27,12 @@ $('.learnmore').click(function(){
 $('.readmore').on('click',function(e) {
      e.preventDefault(); 
      e.stopPropagation(); 
+
+ $('#register').click(function(){
+ 	event.preventDefault();
+ })
   
+  $('.password')
 });
 
 //my personal notes on this assignment
